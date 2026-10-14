@@ -25,6 +25,10 @@ pip install django djangoforestframework djangoforestframework-simplejwt django-
 ```
 django-admin startproject core .
 ```
+# Add requirements using this
+```
+py freeze > requirements.txt
+```
 
 ## Type this in the Middleware
 ```
@@ -88,7 +92,7 @@ py ,\manage.py startapp ( name of the files) ts apps/(Name of the files)
 ```py
 from django.contrib.auth.models import AbstractUser
 ```
-## Create User
+## Create User   
 ```py
 class user(AbstractUser):
     avatar = models.ImageField(upload_to='user/avatar/',default='(Paths name)')
