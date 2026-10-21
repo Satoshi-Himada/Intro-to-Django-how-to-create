@@ -32,7 +32,7 @@ py freeze > requirements.txt
 
 ## Type this in the Middleware
 ```
-
+'corsheaders.middleware.CorsMiddleware',
 ```
 
 ## Put this in installed for rest-framework 
