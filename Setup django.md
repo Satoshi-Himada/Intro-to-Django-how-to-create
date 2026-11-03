@@ -18,7 +18,7 @@ venv/scripts/activate
 
 ## install django
 ```
-pip install django djangoforestframework djangoforestframework-simplejwt django-cors-header pillo
+pip install django djangorestframework djangorestframework-simplejwt pillow
 ```
 
 ## Start the admin
